@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+body {
+    margin: 5px 5px;
+    padding: 5px 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    text-indent: 30px;
+    font-size: 15px;
+}
+
+li {
+    padding: 3px;
+    font-size: 15px;
+    margin-left: -20px;
+} 
+
+h2 {
+    font-size: 14px;
+    box-shadow: 1px 1px 1px 2px rgba(6, 103, 141, 0.781);
+    height: 30px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 5px;
+    background-color: aquamarine;
+    width: 98%;
+}
+
+h2:hover {
+    background-color: rgba(127, 255, 212, 0.486);
+}
+
+h4 {
+    font-size: 14px;
+    text-align: left;
+}
+
+table {
+    width: auto;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: skyblue;
+}
+
+#logo {
+    width: 100%;
+    box-shadow: 1px 1px 2px 2px #ccc;
+}
+
+#glossario b {
+    margin-left: -30px;
+}
+
+#glossario span {
+    margin-left: 10px;
+}
+
+/* inicio do rodape*/
+#paginas {
+    font-size: 15px;
+    text-align: right;
+}
+
+#linha1 {
+    width: 98%;
+    border: 1px dashed gray;
+}
+
+#ponte {
+    width: 100%;
+}
+
+#estudo {
+    font-size: 20px;
+    text-decoration-line: underline;
+    text-align: right;
+}
+
